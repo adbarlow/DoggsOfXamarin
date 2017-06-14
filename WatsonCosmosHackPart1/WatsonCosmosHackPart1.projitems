@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{9F7883BA-37ED-4C85-89C7-A54C32CA4A0B}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>WatsonCosmosHackPart1</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DogModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DocumentDbService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewOlivePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DogTextCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AddDogPage.cs" />
+  </ItemGroup>
+</Project>
